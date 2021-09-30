@@ -1,0 +1,99 @@
+<!DOCTYPE html><!-- new example-->
+<html lang="en ">
+<head >
+<title> CV FORM </title>
+<meta charset="utf-8">
+</head>
+<body>
+<h1>CV FORM</h1>
+<form method="GET" action="index.htmlنة ه9ة " target="_blank" autocomplete="on" >
+    <!--حطيت قيت عشان المعلومات ليست سريه-->
+    <fieldset>
+        <legend> self info</legend><!-- العنوان الي على الحدود-->
+<label for=" 5" > name: </label><!--دائما الليبل معه فور--> <br>
+<input  type="text" id="5" name="fn" required><!--لازم قيمة الاي دي نفس الفور--><br>
+<label for="g">Gender:</label>
+<input type="radio" id="2" name="gn" value="male"><!--هاذي الي يختار منها المستخدم-->
+<label for="2">male</label>
+<input type="radio" id="3" name="gn" value="fmale">
+<label for="3">famle</label><br><br>
+<label for="n">enter your number:</label><br>
+<input type="tel" id="n"name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="333-56-000">
+<!--انشاء رابط -->
+<br>
+<label for="8"> your linken page: </label>
+<input type="url" id="8" name="ul"> 
+<!--انشاء الايميل-->
+<br>
+<label for="6"> email:</label>
+<input type="email" id="6" name="email">
+<br>
+</fieldset><!--هاذي زي الحدوم للصفحه-->
+<label for="9"> years of exper: (3 to 10)</label>
+<input type="number" id="9" name="num" min="3" max="10">
+<!-- range-->
+<label for="ra">exepted salary: </label>
+4000<input type="range" id="ra" name="es" min="4000" max="10000">10000
+<br>
+<!--week-->
+<label for="wee">the nerst week:</label>
+<input type="week" id="w" name="w">
+<!--month-->
+<label for="mouth">the nerst mounth:</label>
+<input type="month" id="mouth" name="m">
+<br>
+<!-- file-->
+<label for="fi">uploud file:</label>
+<input type="file" id="fi" name="file">
+<br>
+<!--dropdown list without text option-->
+<label for="major"> major:</label>
+<select name="major" id="major">
+    <option value="op1">Cs</option>
+    <option value="op2">math</option>
+    <option value="op3">AI</option>
+</select>
+<br>
+<!--dropdown list with text-->
+<label for="major2"> major:</label>
+<input list="maijor2" name="mo2">
+<datalist id="maijor2">
+    <option value="java"></option>
+    <option value="C++"></option>
+</datalist>
+<br>
+ <input type="submit"value="send"><!--للارسال -->
+ <input type="reset"value="reset">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
